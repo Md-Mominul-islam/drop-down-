@@ -1,0 +1,76 @@
+<!Document html>
+<html>
+<head>
+   <title>Drop Down meanu</title>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+
+.navbar ul{
+list-style:none;
+}
+
+.navbar ul li{
+background-color:lightblue;
+color:black;
+text-align:center;
+line-height:30px;
+width:100px;
+height:30px;
+border:1px solid red;
+float:left;
+}
+.navbar ul li:hover{
+background-color:black;
+color:white;
+}
+.navbar ul ul{
+display:none;
+}
+.navbar ul li:hover > ul{
+display:block;}
+
+.navbar ul ul ul{
+margin-top:0px;
+margin-left:100px;
+position:absolute;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+	<ul>
+	<li>Home</li>	
+	<li>Service
+	<ul>
+	<li>Buy</li>
+	<li>Sells
+	<ul>
+	<li>Car</li>	
+	<li>Motorcycle</li>	
+	<li>Trak</li>	
+	<li>Van</li>	
+	<li>AutoCNG</li>
+    </ul>
+	
+	</li>	
+	<li>Buy</li>	
+	<li>Repair</li>		
+	<li>others</li>
+    </ul>
+	
+	</li>	
+	<li>Panel</li>	
+	<li>International</li>	
+	<li>Contact</li>
+    </ul>
+    </div>
+
+  </header>
+</body>
+</html>
